@@ -35,70 +35,84 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 | Platform | Description | Pricing & Free Tier Limits | Company Size |
 |----------|-------------|----------------------------|--------------|
 | **[Amazon CodeCommit](https://aws.amazon.com/codecommit/)** | Fully managed source control service integrated with AWS ecosystem. | AWS Free Tier: 5 active users, 50 GB-month of storage, 10,000 Git requests/month. | ~$570B Revenue |
-| **[Google Cloud Repositories](https://cloud.google.com/source-repositories)** | Managed Git repositories integrated with Google Cloud services. | Free Tier: Up to 5 users, 50GB storage, 50GB egress. Paid: $1/user/month beyond free tier. | ~$300B Revenue |
 | **[Atlassian BitBucket](https://bitbucket.org/)** | Git and Mercurial hosting with strong Jira integration and CI/CD features. | Free Tier: Up to 5 users, 50 build minutes/month, 1GB LFS. Paid plans start at $3/user/month. | ~$40B Valuation |
-| **[Keybase](https://keybase.io/)** | Secure Git hosting with end-to-end encryption and identity verification. | Free: 250GB storage. | ~$20B Valuation |
-| **[GitLab](https://gitlab.com/)** | Complete DevOps platform with Git hosting, CI/CD, and issue management. | Free Tier: Up to 5 users, 5GB storage, 400 CI/CD minutes/month. Paid plans start at $29/user/month. | ~$6B Valuation |
-| **[Canonical Launchpad](https://launchpad.net/)** | Open-source collaboration platform with code hosting and bug tracking. | Free for open-source projects. | ~$200M Revenue |
-| **[Planio](https://plan.io/)** | Hosted project management with Subversion and Git support. | Free Tier: 1 project, 2 users, 500MB storage. Paid plans start at €19/month. | ~$5M Revenue |
-| **[Tuleap](https://tuleap.org/)** | Open ALM platform with Subversion and Git hosting. | Free community edition. SaaS plans start at €15/user/month. | ~$5M Revenue |
-| **[sr.ht](https://sr.ht/)** | Minimalist source hosting with Mercurial and Git support. | Paid only, no free tier. Starts at $2/month or $20/year. | <$1M Revenue |
 | **[Beanstalk](https://beanstalkapp.com/)** | Simple hosted SVN and Git repository platform with deployment tools. | Free Tier: 1 repository, 100MB storage. Paid plans start at $15/month. | Acquired |
+| **[Canonical Launchpad](https://launchpad.net/)** | Open-source collaboration platform with code hosting and bug tracking. | Free for open-source projects. | ~$200M Revenue |
+| **[Codeberg](https://codeberg.org/)** | Non-profit, privacy-friendly Git hosting powered by Forgejo/Gitea for open-source projects. | Free for open-source projects. Voluntary donations welcomed. | Non-profit |
+| **[GitLab](https://gitlab.com/)** | Complete DevOps platform with Git hosting, CI/CD, and issue management. | Free Tier: Up to 5 users, 5GB storage, 400 CI/CD minutes/month. Paid plans start at $29/user/month. | ~$6B Valuation |
+| **[Google Cloud Repositories](https://cloud.google.com/source-repositories)** | Managed Git repositories integrated with Google Cloud services. | Free Tier: Up to 5 users, 50GB storage, 50GB egress. Paid: $1/user/month beyond free tier. | ~$300B Revenue |
+| **[Keybase](https://keybase.io/)** | Secure Git hosting with end-to-end encryption and identity verification. | Free: 250GB storage. | ~$20B Valuation |
 | **[Phabricator](https://phabricator.com/)** | Code review and project management platform. | N/A (Commercial support discontinued, open-source mostly). | Discontinued |
+| **[Planio](https://plan.io/)** | Hosted project management with Subversion and Git support. | Free Tier: 1 project, 2 users, 500MB storage. Paid plans start at €19/month. | ~$5M Revenue |
+| **[sr.ht](https://sr.ht/)** | Minimalist source hosting with Mercurial and Git support. | Paid only, no free tier. Starts at $2/month or $20/year. | <$1M Revenue |
+| **[Tuleap](https://tuleap.org/)** | Open ALM platform with Subversion and Git hosting. | Free community edition. SaaS plans start at €15/user/month. | ~$5M Revenue |
 
 ## 🔓 Open-Source GitHub Projects
 
 ### 💻 Dedicated Source Code Hosting & Collaboration Tools
 
-- **[Gitea](https://github.com/go-gitea/gitea)** [![Stars](https://img.shields.io/github/stars/go-gitea/gitea?style=social&color=white)](https://github.com/go-gitea/gitea/stargazers)  
-Lightweight, self-hosted Git service with a clean interface and strong community support.
+- **[Allura](https://github.com/apache/allura)** [![Stars](https://img.shields.io/github/stars/apache/allura?style=social&color=white)](https://github.com/apache/allura/stargazers)  
+Open-source software forge with code hosting, ticketing, and wiki features.
 
-- **[Gogs](https://github.com/gogs/gogs)** [![Stars](https://img.shields.io/github/stars/gogs/gogs?style=social&color=white)](https://github.com/gogs/gogs/stargazers)  
-Painless self-hosted Git service written in Go, easy to install and use.
+- **[Forgejo](https://codeberg.org/forgejo/forgejo)** [![Stars](https://img.shields.io/github/stars/forgejo/forgejo?style=social&color=white)](https://github.com/forgejo/forgejo/stargazers)  
+Community-driven, soft-fork of Gitea focused on software freedom and independence.
 
-- **[GitLab](https://github.com/gitlabhq/gitlabhq)** [![Stars](https://img.shields.io/github/stars/gitlabhq/gitlabhq?style=social&color=white)](https://github.com/gitlabhq/gitlabhq/stargazers)  
-Complete open-source DevOps platform with Git hosting, CI/CD, issue tracking, and merge requests.
-
-- **[Phabricator](https://github.com/phacility/phabricator)** [![Stars](https://img.shields.io/github/stars/phacility/phabricator?style=social&color=white)](https://github.com/phacility/phabricator/stargazers)  
-Open-source code review and project management platform.
-
-- **[GitBucket](https://github.com/gitbucket/gitbucket)** [![Stars](https://img.shields.io/github/stars/gitbucket/gitbucket?style=social&color=white)](https://github.com/gitbucket/gitbucket/stargazers)  
-Open-source Git platform powered by Scala with GitHub-like interface.
-
-- **[Gitolite](https://github.com/sitaramc/gitolite)** [![Stars](https://img.shields.io/github/stars/sitaramc/gitolite?style=social&color=white)](https://github.com/sitaramc/gitolite/stargazers)  
-Highly configurable Git hosting with fine-grained access control.
+- **[Fossil](https://fossil-scm.org/)**  
+Simple, self-contained, distributed version control system with built-in wiki, bug tracking, and web interface.
 
 - **[Gerrit Code Review](https://github.com/GerritCodeReview/gerrit)** [![Stars](https://img.shields.io/github/stars/GerritCodeReview/gerrit?style=social&color=white)](https://github.com/GerritCodeReview/gerrit/stargazers)  
 Open-source code review system used by large projects like Android.
 
-- **[Pagure](https://github.com/pagure/pagure)** [![Stars](https://img.shields.io/github/stars/pagure/pagure?style=social&color=white)](https://github.com/pagure/pagure/stargazers)  
-Open-source forge developed by Fedora for code hosting and collaboration.
+- **[Gitea](https://github.com/go-gitea/gitea)** [![Stars](https://img.shields.io/github/stars/go-gitea/gitea?style=social&color=white)](https://github.com/go-gitea/gitea/stargazers)  
+Lightweight, self-hosted Git service with a clean interface and strong community support.
 
-- **[Allura](https://github.com/apache/allura)** [![Stars](https://img.shields.io/github/stars/apache/allura?style=social&color=white)](https://github.com/apache/allura/stargazers)  
-Open-source software forge with code hosting, ticketing, and wiki features.
+- **[GitLab](https://github.com/gitlabhq/gitlabhq)** [![Stars](https://img.shields.io/github/stars/gitlabhq/gitlabhq?style=social&color=white)](https://github.com/gitlabhq/gitlabhq/stargazers)  
+Complete open-source DevOps platform with Git hosting, CI/CD, issue tracking, and merge requests.
 
-- **[SourceHut (sr.ht)](https://git.sr.ht/~sircmpwn/sourcehut)**  
-Minimalist open-source software forge with Git, Mercurial, mailing lists, and CI.
+- **[Gitolite](https://github.com/sitaramc/gitolite)** [![Stars](https://img.shields.io/github/stars/sitaramc/gitolite?style=social&color=white)](https://github.com/sitaramc/gitolite/stargazers)  
+Highly configurable Git hosting with fine-grained access control.
+
+- **[GitBucket](https://github.com/gitbucket/gitbucket)** [![Stars](https://img.shields.io/github/stars/gitbucket/gitbucket?style=social&color=white)](https://github.com/gitbucket/gitbucket/stargazers)  
+Open-source Git platform powered by Scala with GitHub-like interface.
+
+- **[Gogs](https://github.com/gogs/gogs)** [![Stars](https://img.shields.io/github/stars/gogs/gogs?style=social&color=white)](https://github.com/gogs/gogs/stargazers)  
+Painless self-hosted Git service written in Go, easy to install and use.
+
+- **[HGKeeper](https://github.com/cedar-forest/hgkeeper)** [![Stars](https://img.shields.io/github/stars/cedar-forest/hgkeeper?style=social&color=white)](https://github.com/cedar-forest/hgkeeper/stargazers)  
+Mercurial repository hosting tool.
 
 - **[Kallithea](https://github.com/Kallithea/kallithea)** [![Stars](https://img.shields.io/github/stars/Kallithea/kallithea?style=social&color=white)](https://github.com/Kallithea/kallithea/stargazers)  
 Open-source source code management system supporting Git and Mercurial.
 
+- **[OneDev](https://github.com/theonedev/onedev)** [![Stars](https://img.shields.io/github/stars/theonedev/onedev?style=social&color=white)](https://github.com/theonedev/onedev/stargazers)  
+All-in-one open-source DevOps platform with Git hosting, issue tracking, and CI/CD.
+
+- **[Pagure](https://github.com/pagure/pagure)** [![Stars](https://img.shields.io/github/stars/pagure/pagure?style=social&color=white)](https://github.com/pagure/pagure/stargazers)  
+Open-source forge developed by Fedora for code hosting and collaboration.
+
+- **[Phabricator](https://github.com/phacility/phabricator)** [![Stars](https://img.shields.io/github/stars/phacility/phabricator?style=social&color=white)](https://github.com/phacility/phabricator/stargazers)  
+Open-source code review and project management platform.
+
+- **[Radicle](https://github.com/radicle-dev/radicle-cli)** [![Stars](https://img.shields.io/github/stars/radicle-dev/radicle-cli?style=social&color=white)](https://github.com/radicle-dev/radicle-cli/stargazers)  
+Peer-to-peer code collaboration network built on Git and cryptography.
+
 - **[RhodeCode](https://github.com/RhodeCode/RhodeCode)** [![Stars](https://img.shields.io/github/stars/RhodeCode/RhodeCode?style=social&color=white)](https://github.com/RhodeCode/RhodeCode/stargazers)  
 Open-source enterprise source code management with Git, SVN, and Mercurial support.
 
-- **[HGKeeper](https://github.com/cedar-forest/hgkeeper)** [![Stars](https://img.shields.io/github/stars/cedar-forest/hgkeeper?style=social&color=white)](https://github.com/cedar-forest/hgkeeper/stargazers)  
-Mercurial repository hosting tool.
+- **[Soft Serve](https://github.com/charmbracelet/soft-serve)** [![Stars](https://img.shields.io/github/stars/charmbracelet/soft-serve?style=social&color=white)](https://github.com/charmbracelet/soft-serve/stargazers)  
+TUI-driven self-hostable Git server for the command line.
+
+- **[SourceHut (sr.ht)](https://git.sr.ht/~sircmpwn/sourcehut)**  
+Minimalist open-source software forge with Git, Mercurial, mailing lists, and CI.
 
 - **[Tuleap](https://github.com/Enalean/tuleap)** [![Stars](https://img.shields.io/github/stars/Enalean/tuleap?style=social&color=white)](https://github.com/Enalean/tuleap/stargazers)  
 Open-source ALM platform with code hosting, tracking, and agile tools.
 
 ### Additional Strong Open-Source Options
 
-- **[OneDev](https://github.com/theonedev/onedev)** [![Stars](https://img.shields.io/github/stars/theonedev/onedev?style=social&color=white)](https://github.com/theonedev/onedev/stargazers) — All-in-one DevOps platform with Git hosting and CI/CD.
-- **[Review Board](https://github.com/reviewboard/reviewboard)** [![Stars](https://img.shields.io/github/stars/reviewboard/reviewboard?style=social&color=white)](https://github.com/reviewboard/reviewboard/stargazers) — Open-source code review tool.
-- **[Fossil](https://fossil-scm.org/)** — Simple, distributed version control with built-in wiki and bug tracking.
 - **[GitPrep](https://github.com/gitprep/gitprep)** [![Stars](https://img.shields.io/github/stars/gitprep/gitprep?style=social&color=white)](https://github.com/gitprep/gitprep/stargazers) — Portable Git hosting solution.
 - **[GitSSB Fair](https://github.com/ssbc)** — Secure Scuttlebutt-based Git hosting.
+- **[Review Board](https://github.com/reviewboard/reviewboard)** [![Stars](https://img.shields.io/github/stars/reviewboard/reviewboard?style=social&color=white)](https://github.com/reviewboard/reviewboard/stargazers) — Open-source code review tool.
 
 **Frameworks for building custom forges**: Combine **Gitea**, **Gogs**, or **GitLab** self-hosted with **Gerrit** for code review to create fully open source code collaboration platforms.
 
